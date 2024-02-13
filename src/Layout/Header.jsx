@@ -9,7 +9,10 @@ export const Header = () => {
           <img src={wowLogo} alt="World of Warcraft logo" />
         </Link>
         <div>
-          <Link to="/about" className="text-white">
+          <Link to="/community" className="text-white">
+            Community
+          </Link>
+          <Link to="/about" className="ml-4 text-white">
             About
           </Link>
           <Link to="/contact" className="ml-4 text-white">
