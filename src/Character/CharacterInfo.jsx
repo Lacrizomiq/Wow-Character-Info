@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import { CharacterDetails } from "./CharacterDetails";
 
 export const CharacterInfo = () => {
   const location = useLocation();
@@ -6,7 +7,13 @@ export const CharacterInfo = () => {
 
   return (
     <div>
-      <h2>Character Info</h2>
+      <CharacterDetails characterData={characterData} />
+    </div>
+  );
+};
+
+{
+  /* <h2>Character Info</h2>
       {characterData ? (
         <div>
           <h3>{characterData.name}</h3>
@@ -24,10 +31,8 @@ export const CharacterInfo = () => {
         </div>
       ) : (
         <p>No character data found</p>
-      )}
-    </div>
-  );
-};
+      )} */
+}
 
 // {
 //   "name": "Ouimagatée",

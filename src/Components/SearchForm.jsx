@@ -2,7 +2,6 @@ import { useForm } from "react-hook-form";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { fetchCharacterProfile } from "../api/wowApi";
-import tww from "../assets/tww-bg.jpg";
 
 export const SearchForm = () => {
   const {
