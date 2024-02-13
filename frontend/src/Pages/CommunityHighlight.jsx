@@ -1,6 +1,3 @@
-import { Wowhead } from "./Community/Wowhead";
-import { IcyVeins } from "./Community/IcyVeins";
-import { RaiderIo } from "./Community/RaiderIo";
 import { useEffect, useState } from "react";
 
 export const CommunityHighlight = () => {
