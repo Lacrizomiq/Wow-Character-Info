@@ -15,9 +15,7 @@ export const SearchComponents = () => {
         <h1 className="text-4xl font-bold text-center">
           Welcome to WoW Character Finder
         </h1>
-        <p className="text-center text-gray">
-          Search for a character to get started
-        </p>
+        <p className="text-center text-gray">Search a character</p>
       </div>
       <SearchForm onCharacterLoad={setCharacterData} />
       {characterData && <CharacterInfo characterData={characterData} />}
