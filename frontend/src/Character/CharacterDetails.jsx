@@ -9,7 +9,7 @@ export const CharacterDetails = () => {
       <img
         src={characterData.thumbnail_url}
         alt={`${characterData.name} avatar`}
-        className="object-cover object-center w-32 h-32 border-2 border-gray-800 shadow-lg"
+        className="object-cover object-center w-32 h-32 m-4 border-4 border-gray-800 shadow-lg"
       />
       <div className="flex flex-col justify-center gap-2 ml-4">
         <div>

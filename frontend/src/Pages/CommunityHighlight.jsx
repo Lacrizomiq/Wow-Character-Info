@@ -15,11 +15,11 @@ export const CommunityHighlight = () => {
   }, []);
 
   return (
-    <div className="flex m-4">
+    <div className="flex flex-wrap justify-center m-4">
       {communityData.map((data, index) => {
         const { title, description, link } = data;
         return (
-          <div key={index} className="p-2 m-4 border-2 shadow-lg">
+          <div key={index} className="p-2 m-4 border-2 shadow-lg w-80">
             <h1>{title}</h1>
             <p>{description}</p>
             <a href={link} target="_blank" rel="noreferrer">
